@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -eu
-
 REL_DIR="resource-tutorial"
 
 echo "Automated build option selected, proceeding..."
