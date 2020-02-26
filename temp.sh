@@ -2,7 +2,6 @@
 
 set -eu
 
-BUILD_TYPE="${1}"
 REL_DIR="resource-tutorial"
 
 echo "Automated build option selected, proceeding..."
