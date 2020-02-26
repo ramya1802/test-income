@@ -17,8 +17,3 @@ echo "TEMP2=$TEMP2"
 echo "testinggggg"
 
 
-if [[ $BUILD_TYPE == "concourse-build" ]]; then
-    # VARIABLE OVERRIDES
-    echo "${TEMP1}.`date +%Y%m%d`" > build-output/docker.tag
-    echo "After building, the tag for the docker image will be " && cat build-output/docker.tag
-fi
